@@ -27,7 +27,7 @@ const TodoList = () => {
   return (
     <div className={styles.container}>
       <h1>Todo List</h1>
-      <span className="titleimg">
+      <span className={styles.titleimg}>
         <img src="ok.jpg" alt="i'm ok" />
       </span>
       <input
